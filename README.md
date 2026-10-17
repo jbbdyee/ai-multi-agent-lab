@@ -2,6 +2,12 @@
 
 이전 교육 과정의 AI Agent 실습을 단계별로 정리한 저장소입니다. 수업 자료를 바탕으로 예제를 실행·수정하며 LLM 호출부터 Tool, RAG, Memory, 승인·평가, Multi-Agent 협업까지 학습한 기록을 담았습니다.
 
+## 이 과정에서 배운 것
+
+- LLM 응답을 구조화하고 Tool 호출 결과를 검증해 단일 Agent의 실행 흐름을 만들었습니다.
+- RAG와 Memory를 연결하고, 사람의 승인·평가를 통해 Agent 동작을 확인했습니다.
+- 역할을 나눈 여러 Agent의 협업, Handoff와 보안 가드레일을 단계별로 실습했습니다.
+
 ## 저장소 구성
 
 - [`mini_agent_01_llm/`](mini_agent_01_llm/) ~ [`mini_agent_08_evaluation/`](mini_agent_08_evaluation/) — 단일 Agent의 기본 기능부터 평가까지 단계별 실습
